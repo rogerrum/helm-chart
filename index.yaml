@@ -3,12 +3,45 @@ entries:
   helm-chart-test:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-30T22:54:52.87892-05:00"
+    created: "2022-10-31T00:30:35.699552-05:00"
     description: A Helm chart for Kubernetes
-    digest: b38c5a314a764fc0bbe78554f835619e2fd0445dcd539b8551bc25242e567ee7
+    digest: 8d1fe6b35d0b3e9a50047a9f97c632ce7a86a39f1432a6ba10c626f98d111d3b
     name: helm-chart-test
     type: application
     urls:
     - https://rogerrum.github.io/helm-chart/helm-chart-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-30T22:54:52.876358-05:00"
+  longhorn:
+  - apiVersion: v1
+    appVersion: v1.4.0-dev
+    created: "2022-10-31T00:30:35.702445-05:00"
+    description: Longhorn is a distributed block storage system for Kubernetes.
+    digest: b263a3a6b4bccb9d8af96ac0096fa7c52def717637256c00120c48be8472bb1e
+    home: https://github.com/longhorn/longhorn
+    icon: https://raw.githubusercontent.com/cncf/artwork/master/projects/longhorn/icon/color/longhorn-icon-color.png
+    keywords:
+    - longhorn
+    - storage
+    - distributed
+    - block
+    - device
+    - iscsi
+    - nfs
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: maintainers@longhorn.io
+      name: Longhorn maintainers
+    name: longhorn
+    sources:
+    - https://github.com/longhorn/longhorn
+    - https://github.com/longhorn/longhorn-engine
+    - https://github.com/longhorn/longhorn-instance-manager
+    - https://github.com/longhorn/longhorn-share-manager
+    - https://github.com/longhorn/longhorn-manager
+    - https://github.com/longhorn/longhorn-ui
+    - https://github.com/longhorn/longhorn-tests
+    - https://github.com/longhorn/backing-image-manager
+    urls:
+    - https://rogerrum.github.io/helm-chart/longhorn-1.4.0-dev.tgz
+    version: 1.4.0-dev
+generated: "2022-10-31T00:30:35.698152-05:00"
